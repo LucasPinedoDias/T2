@@ -1,0 +1,106 @@
+.quadrado {
+    border: solid black 1px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: fit-content;
+    height: fit-content;
+    padding: 3px;
+}
+.leiaute-cabecalho {
+    margin: 5px 20px;
+}
+.menu li {
+    text-decoration: none;
+    display: inline;
+    padding: 20px;
+    color: black;
+}
+.menu li a {
+    text-decoration: none;
+    color: blue;
+}
+.menu li p {
+    text-decoration: none;
+    color: black;
+}
+.menu__principal {
+    float: right;
+}
+.titulo {
+    text-align: center;
+}
+.descricao {
+    font-weight: bold;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    text-align: center;
+}
+.vitrine {
+    list-style: none;
+}
+.vitrine li {
+    border-radius: 20px 20px 20px 20px;
+    border: solid black;
+    margin: 20px;
+}
+.mercadorias__info {
+    text-align: center;
+}
+.visual {
+    width: 120px;
+    margin: 10px;
+}
+.botao {
+    height: 50px;
+    border-radius: 20px 20px 20px 20px;
+    padding: 5px;
+    font-size: 15px;
+}
+.adicionar {
+    color: white;
+    background: linear-gradient(to bottom, black 2px, white 70px);
+    border: 1px solid white;
+    margin-bottom: 5px;
+}
+.comprar {
+    color: white;
+    background: linear-gradient(to bottom, white 2px, black 70px);
+    border: 1px solid black;
+    margin-bottom: 5px;
+}
+.comprar:hover {
+    background: linear-gradient(to bottom, white 2px, green 70px);
+}
+.adicionar:hover {
+    background: linear-gradient(to bottom, white 2px, blue 70px);
+    border: 1px solid black;
+}
+.leiaute-rodape {
+    display: flex;
+    border-radius: 20px;
+    border: 3px solid black;
+    text-align: center;
+    justify-content: space-around;
+    padding: 5px;
+    color: green;
+}
+.rodape {
+    list-style: none;
+    margin: 10px;
+    padding: 15px 5px 5px;
+    color: green;
+}
+.rodape a {
+    text-decoration: underline;
+    color: green;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+.menu li a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+ul {
+    margin: 5px;
+}
